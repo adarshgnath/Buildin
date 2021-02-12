@@ -30,7 +30,7 @@
     font-family:'Roboto';
     font-weight:300;
     font-size:32px;
-    padding-top:20vh;
+    padding-top:40vh;
     height:100vh;
     overflow:hidden;
     backface-visibility: hidden;
@@ -86,4 +86,11 @@
     position: relative;
     top: 100px;
     color: white;
+  }
+  .explore{
+    background-color: white;
+    text-align: center;
+    min-width: 100%; padding: 20px;
+    margin-top: 20px;
+    font-size: 40px;
   }

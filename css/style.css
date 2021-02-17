@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
 
+body{
+  overflow-x: hidden;
+}
 .bg{background-image: url(/images/wood.jpg);
   min-width: 100%;
   background-attachment: fixed;
@@ -147,3 +150,19 @@
     height:10px;
     position:absolute;
   }
+
+  .fa{
+    padding: 20px;
+  font-size: 20px;
+  width: 55px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+    background: black;
+    color: white;
+  }
+  .fa:hover {
+    background: white;
+    color: black;
+}
